@@ -11,3 +11,16 @@ After exhausting my search for ways to find stuck files, I decided perhaps I wou
 
 Caution - this worked for my specific use case.  I have not tried this on other cloud solutions only icloud drive.  It may not work for you and given that the final step is a deletion, you may lose data. You can run 'what if' scenarios or just try one file at a time as a test to determine if it works for you. Other parameters are embeded in the file.
 Have not tried this on any non-english character set.  
+
+## Requirements
+
+- Windows 10 or Windows 11
+- iCloud for Windows (Microsoft Store version)
+- PowerShell:
+  - Windows PowerShell 5.1 (minimum), or
+  - PowerShell 7.x on Windows
+
+### Notes
+- This script is Windows-only.
+- It relies on Windows Explorer’s "Availability status" metadata exposed by iCloud for Windows.
+- It will not work on macOS or Linux.
