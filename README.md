@@ -1,5 +1,5 @@
 # Slow_iCloud_move
-Windows powershell script to move large numbers of files to iCloud one file at a time. 
+Windows powershell script to move large numbers of files to iCloud drive one file at a time. 
 The script copies a file to the target icloud directory and polls the status as it moves from sync pending to syncing to 'always available on this device.'
 Once the file reaches the Always Available level - the source file is removed. It handles file names with odd but legal characters (like emojis). 
 All of this work is written to a detailed, date/time stamped log file as well as displayed on the console.  
