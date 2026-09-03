@@ -1,7 +1,0 @@
-Pillow>=10.0
-imagehash>=4.3
-anthropic>=0.40
-openai>=1.50
-pypdf>=4.0
-ebooklib>=0.18
-beautifulsoup4>=4.12
