@@ -24,3 +24,8 @@ Have not tried this on any non-english character set.
 - This script is Windows-only.
 - It relies on Windows Explorer’s "Availability status" metadata exposed by iCloud for Windows.
 - It will not work on macOS or Linux.
+
+# book_to_comic
+
+This repository also hosts an unrelated experiment: a Python pipeline that turns a book
+(`.txt`/`.epub`/`.pdf`) into a paneled comic. See [`book_to_comic/README.md`](book_to_comic/README.md).
